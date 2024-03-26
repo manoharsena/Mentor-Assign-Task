@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
   res.status(200)
     .send(`<div style="text-align: center; background-color:lightblue;  padding: 10px;"><h1>Assign a mentors to the students</h1></div>
       <div>
-      <h1  style="text-align: center;"> <u>Base API For Mentor:</u> https://mentor-assign-task-9kpc.onrender.com/api/mentor</h1>
+      <h1  style="text-align: center;"> <u>Base API For Mentor:</u> https://mentor-assign-task-61pa.onrender.com/api/mentor</h1>
       <h2>End Points</h2>
       <ul>
       <li>
@@ -44,7 +44,7 @@ app.get("/", (req, res) => {
       <hr></hr>
        
       <div>
-      <h1  style="text-align: center;"> <u>Base API For Student:</u> https://mentor-assign-task-9kpc.onrender.com/api/student</h1>
+      <h1  style="text-align: center;"> <u>Base API For Student:</u> https://mentor-assign-task-61pa.onrender.com/api/student</h1>
       <h2>End Points</h2>
       <ul>
       <li>
