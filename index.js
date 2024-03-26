@@ -2,8 +2,8 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import connectDB from "./Database/dbConfig.js";
-import MentorRouter from "./Routers/Mentor.Router.js";
-import StudentRouter from "./Routers/Student.Router.js";
+import MentorRouter from "./Routers/mentor.router.js";
+import StudentRouter from "./Routers/student.router.js";
 
 dotenv.config();
 const app = express();
